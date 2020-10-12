@@ -1,23 +1,17 @@
 team = []
 
-# Player class definition
-class Player
-	
+class Player	
 	attr_reader :name, :score
-
 	def initialize(name, score)
 		@name = name
 		@score = score
 	end
-
 end
 
-# Populate list of players
 50.times do |i|
 	team << Player.new("Player #{i + 1}", rand(10..300))
 end
 
-# Print results
 team.each do |player|
 	puts("Ready #{player.name}! Score: #{player.score.to_s}")
 end
