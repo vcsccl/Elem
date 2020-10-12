@@ -13,7 +13,7 @@ def modify_name(being, collective = false)
 end
 
 def assimilate(being)
-  name << " Borg"
+  being << " Borg"
 end
 
-puts "New borg name: #{modify_name(@input, true)}"
+puts("Resistance is Futile Borg #000" + modify_name(@input, true))
