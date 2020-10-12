@@ -1,6 +1,7 @@
 @input = "Leeroy Weasley"
 
 def modify_name(name, is_borg = false)
+  # string to array phaser 
   decoupled = name.split
   reversed = decoupled.reverse
   joined = reversed.join(' ')
