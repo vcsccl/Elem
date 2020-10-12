@@ -1,18 +1,18 @@
 @input = "Leeroy Weasley"
 
-def modify_name(name, is_borg = false)
+def modify_name(being, collective = false)
   # reverse string/array phaser 
-  decoupled = name.split
+  decoupled = being.split
   reversed = decoupled.reverse
-  joined = reversed.join(' ')
+  drone = reversed.join(' ')
 
-  if is_borg
-    assimilate(joined)
+  if collective
+    assimilate(drone)
   end
-  return joined
+  return drone
 end
 
-def assimilate(name)
+def assimilate(being)
   name << " Borg"
 end
 
