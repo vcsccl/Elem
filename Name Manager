@@ -1,6 +1,6 @@
 # Name Manager
 
-@input = "Bo Weasley"
+@input = "Leeroy Weasley"
 
 def modify_name(name, is_borg = false)
   decoupled = name.split
