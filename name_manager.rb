@@ -16,4 +16,4 @@ def assimilate(being)
   being << " Borg"
 end
 
-puts("Resistance is Futile Borg #000" + modify_name(@input, true))
+puts("Resistance is Futile Borg #000 - " + modify_name(@input, true))
